@@ -3,7 +3,7 @@ To use this tool, follow these steps:
 
 1. **Clone the Repository** (if you haven't already):
    ```sh
-   git clone <https://github.com/Hishamk2/tech-debt-satd.git>
+   git clone https://github.com/Hishamk2/tech-debt-satd.git
    ```
    
 2. **Navigate to the Project Directory:**
