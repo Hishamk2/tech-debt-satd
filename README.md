@@ -8,10 +8,14 @@ To use this tool, follow these steps:
    
 2. **Navigate to the Project Directory:**
    ```sh
-   cd Bug-prediction
+   cd tech-debt-satd/Bug-prediction/
+   ```
+3. **Build the project using Maven**
+   ```sh
+   mvn clean install assembly:single
    ```
 
-3. **Run the Complexity Analyzer Tool:**
+4. **Run the Complexity Analyzer Tool:**
    
    Execute the following command from within the `Bug-prediction` directory to run the tool:
    ```sh
