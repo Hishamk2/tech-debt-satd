@@ -1,0 +1,8 @@
+public void fun(){// hello
+/* do nothing
+*/int a =5;
+/*
+int b =5;
+*/ // hello
+int k =0;
+}

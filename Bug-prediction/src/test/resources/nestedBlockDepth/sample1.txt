@@ -1,0 +1,25 @@
+    public void fun(){
+        int i=0,j,k=0,l;
+        List<String> s=null;
+        if(i>5){
+            for(j=0;j<k;j++){
+                for(String m:s){
+                    do{
+                        while(i<k){
+                            switch(j){
+                                case 1:
+                                    k= i>0?i:j;
+                                    break;
+
+                                case 2:
+                                    break;
+
+                                default:
+                                    ;
+                            }
+                        }
+                    }while(i==0);
+                }
+            }
+        }
+    }

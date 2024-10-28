@@ -1,0 +1,12 @@
+    public void fun(){
+        int i=0,j=0,k=0,l;
+        List<String> s=null;
+        if(i>5){
+        }
+        if(j<i){
+           for(k=0;k<j;k++){
+
+           }
+
+        }
+    }

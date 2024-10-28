@@ -1,0 +1,4 @@
+public int getValue() {
+ return 1;
+   //comment
+}

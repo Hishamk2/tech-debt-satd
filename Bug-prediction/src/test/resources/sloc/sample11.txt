@@ -1,0 +1,27 @@
+
+ public static void copyToFile(final InputStream source, final File destination) throws IOException {
+        final FileOutputStream output = openOutputStream(destination);
+        /**
+        //
+        //
+        //
+        //
+
+
+
+
+        *** helli
+        // hi
+        */
+
+        ///
+        //
+        //
+
+
+        /*
+        sdfj
+        //
+        */
+
+    }

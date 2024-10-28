@@ -1,0 +1,6 @@
+public void setValue(int x) {
+ this.ob = x;
+   //comment
+   //
+
+}

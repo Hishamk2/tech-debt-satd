@@ -1,0 +1,23 @@
+ public static void copyToFile(final InputStream source, final File destination) throws IOException {
+        final FileOutputStream output = openOutputStream(destination);
+        // trying to catch
+        try { // this is not a problem
+        // i have solved this
+            IOUtils.copy(source, output);
+            /*
+            i am solving a problem here
+            // what's that
+            kasdjf kljsdfks f sdf
+            */
+            output.close();
+            // don't swallow close Exception if copy completes normally
+        } finally {
+        /**
+           ***** Creates a new Student with the given name.
+            The name should include both first and
+            last name.
+           */
+
+            IOUtils.closeQuietly(output);
+        }
+    }

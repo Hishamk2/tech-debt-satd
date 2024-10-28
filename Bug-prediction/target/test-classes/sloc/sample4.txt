@@ -1,0 +1,25 @@
+    public void hello(){
+
+
+/*
+**
+
+// just for fun
+        sdajfkd
+                sdfljdskl
+        k
+                */
+
+
+/*hello
+jje
+*/
+// me
+
+        System.out.
+
+                println("hello");
+        int a =
+                2;
+        //comment
+    }

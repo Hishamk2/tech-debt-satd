@@ -1,0 +1,27 @@
+    private boolean containsAllSafeTokens(final AST aExpr)
+    {
+        AST arg = aExpr.getFirstChild();
+
+        if (((DetailAST) arg).branchContains(TokenTypes.METHOD_CALL)) {
+            return false;
+        }
+        arg = skipVariableAssign(arg);
+
+        //Plus assignment can have ill affects
+        //do not want to recommend moving expression
+        //See example:
+        //String s = "SweetString";
+        //s.equals(s += "SweetString"); //false
+        //s = "SweetString";
+        //(s += "SweetString").equals(s); //true
+        //arg = skipVariablePlusAssign(arg);
+
+        if (((DetailAST) arg).branchContains(TokenTypes.PLUS_ASSIGN)
+                || ((DetailAST) arg).branchContains(TokenTypes.IDENT))
+        {
+            return false;
+        }
+
+        //must be just String literals if got here
+        return true;
+    }

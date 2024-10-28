@@ -1,0 +1,22 @@
+    public void fun(){
+        int i=0,j,k=0,l;
+        List<String> s=null;
+        if(i>5){
+            for(j=0;j<k;j++){
+                for(String m:s){
+                    do{
+                        while(i<k){
+                            try{
+                                int x=2;
+                                int w = 2/j;
+                            }catch(ArithmeticException e){
+                                ;}catch(Exception e2){;}
+
+                        }
+
+                    }while(i==0);
+                }
+            }
+        }
+    }
+

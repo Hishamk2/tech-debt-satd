@@ -1,0 +1,7 @@
+public static void square (int i, int j){
+    int k=0;
+
+    for(k=0;k<j;k++){
+        System.out.println("**");
+    }
+}

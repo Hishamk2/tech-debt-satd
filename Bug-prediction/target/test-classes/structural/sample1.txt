@@ -1,0 +1,6 @@
+    public void fun(){
+        int x=0,y=0;
+        fun2(x, y, fun3());
+        fun3();
+        fun4();
+    }

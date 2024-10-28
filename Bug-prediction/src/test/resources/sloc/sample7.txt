@@ -1,0 +1,9 @@
+ public static void copyToFile(final InputStream source, final File destination) throws IOException {
+        final FileOutputStream output = openOutputStream(destination);
+        try {
+            IOUtils.copy(source, output);
+            output.close(); // don't swallow close Exception if copy completes normally
+        } finally {
+            IOUtils.closeQuietly(output);
+        }
+    }
